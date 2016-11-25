@@ -19,7 +19,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -39,6 +39,15 @@
         }).on("blur", ".floating-label-form-group", function() {
             $(this).removeClass("floating-label-form-group-with-focus");
         });
+    });
+
+    $("video").click(function() {
+      //console.log(this); 
+      if (this.paused) {
+        this.play();
+      } else {
+        this.pause();
+      }
     });
 
 })(jQuery); // End of use strict
