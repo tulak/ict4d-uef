@@ -12,16 +12,27 @@ header.ccs {
   background-size: cover;
 }
 
+header.solar {
+  background-image: url('../img/solar-landscape.jpg');
+  background-repeat: space;
+  background-position: center;
+  background-size: cover;
+}
+
 
 .intro-text.success {
   background-color: #18BC9C;
   padding: 15px 0px;
 }
 
-section ul li {
+section ul li,
+.modal-body ul li {
   font-size: 20px;
 }
 
+.test-left {
+  text-align: left;
+}
 
 
 
